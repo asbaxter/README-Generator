@@ -1,4 +1,5 @@
 // TODO: Include packages needed for this application
+import inquirer from "inquirer";
 
 // TODO: Create an array of questions for user input
 const questions = [];
@@ -7,7 +8,21 @@ const questions = [];
 function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer
+        .prompt([
+            {
+                name: 'question1',
+                message: 'What is your name',
+                type: 'input'
+            }
+        ])
+        .then(function(answer){
+            console.log(answer);
+        })
+
+
+}
 
 // Function call to initialize app
 init();
