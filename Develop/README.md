@@ -1,36 +1,36 @@
-# my project
+# My Project
 
-  ##Table of Contents__
-  [Description](#Description)__
-  [Installation](#Installation)__
-  [Usage](#Usage)__
-  [Contribution-Guidelines](#Contribution-Guidelines)__
-  [Test-Instructions](#Test-Instructions)__
-  [Contact-Me](#Contact-Me)__
+  ##Table of Contents<br /> 
+  [Description](#Description)<br /> 
+  [Installation](#Installation)<br /> 
+  [Usage](#Usage)<br /> 
+  [Contribution-Guidelines](#Contribution-Guidelines)<br /> 
+  [Test-Instructions](#Test-Instructions)<br /> 
+  [Contact-Me](#Contact-Me)<br /> 
 
   ## Description
 
-  it is a project
+  it is a cool project
   
   ## Installation
   
-  sd
+  git cloine it
 
   ## Usage:
 
-  asf
+  use it
 
   ## Contribution-Guidelines
 
-  asedg
+  contribute to iot
 
   ## Test-Instructions
 
-  asg
+  sgsdg
 
-  ## Contact-Me__
+  ## Contact-Me<br /> 
 
-  Email: blah@aol.com__
+  Email: blah@aol.com<br /> 
   [GitHub:](https://github.com/asbaxter)
 
   
