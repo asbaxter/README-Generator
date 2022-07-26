@@ -1,7 +1,7 @@
-# ads
+# My Project
 
-  MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  undefined
+  ## Apache 2.0 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)<br /> 
+  [Link to Apache](https://www.apache.org/licenses/LICENSE-2.0)
 
   ## Table of Contents
 
@@ -14,28 +14,28 @@
 
   ## Description
 
-  asd
+  it is a really cool project
   
   ## Installation
   
-  asd
+  you just install it
 
   ## Usage:
 
-  asd
+  you just use it
 
   ## Contribution-Guidelines
 
-  asd
+  you just contribute
 
   ## Test-Instructions
 
-  asd
+  blah blah
 
   ## Contact-Me<br /> 
 
-  Email: asd<br /> 
+  Email: blahblah@aol.com<br /> 
   GitHub:
-  [Link](https://github.com/asd)
+  [Link](https://github.com/asbaxter)
 
   

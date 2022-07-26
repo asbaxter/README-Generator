@@ -21,7 +21,21 @@ function renderLicenseBadge(data) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(data) {
-  console.log(data.license)
+  if (data.license === 'MIT'){
+    return '[Link to MIT](https://opensource.org/licenses/MIT)';
+  }
+  else if(data.license === 'Apache 2.0'){
+    return '[Link to Apache](https://www.apache.org/licenses/LICENSE-2.0)';
+  }
+  else if(data.license === 'ISC'){
+    return '[Link to ISC](https://opensource.org/licenses/ISC)';
+  }
+  else if(data.license === 'BSD'){
+    return '[Link to BSD](https://opensource.org/licenses/BSD-3-Clause)';
+  }
+  else{
+    return '';
+  }
 }
 
 // TODO: Create a function that returns the license section of README
@@ -48,7 +62,7 @@ function renderLicenseSection(data) {
 export default function generateMarkdown(data) {
   return `# ${data.title}
 
-  ${renderLicenseSection(data)} ${renderLicenseBadge(data)}
+  ## ${renderLicenseSection(data)} ${renderLicenseBadge(data)}<br /> 
   ${renderLicenseLink(data)}
 
   ## Table of Contents
