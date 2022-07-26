@@ -2,11 +2,13 @@
 import inquirer from "inquirer";
 import fs from 'fs';
 
+import generateMarkdown from './utils/generateMarkdown.js';
+
 
 // TODO: Create an array of questions for user input
 const questions = [
     {
-        name: 'project',
+        name: 'title',
         message: 'What is the title of you projects? ',
         type: 'input'
     },
@@ -64,9 +66,8 @@ const questions = [
 function writeToFile(fileName, data) {
     console.log(fileName);
     console.log(data);
-    let strData = JSON.stringify(data);
 
-    fs.writeFile(fileName, strData, function(err){
+    fs.writeFile(fileName, generateMarkdown(data), function(err){
         if(err){
             console.log(err);
         }
