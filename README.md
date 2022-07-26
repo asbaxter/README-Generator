@@ -1,7 +1,7 @@
-# my project
+# My project
 
-  ## ISC [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)<br /> 
-  [Link to ISC](https://opensource.org/licenses/ISC)
+  ## Apache 2.0 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)<br /> 
+  [Link to Apache](https://www.apache.org/licenses/LICENSE-2.0)
 
   ## Table of Contents
 
@@ -14,28 +14,28 @@
 
   ## Description
 
-  it is a really cool projected that generates README.md's, In fact this read me was made with the generator
+  it is a really cool project
   
   ## Installation
   
-  git clone it
+  you just install it
 
   ## Usage
 
-  use it
+  just use it silly
 
   ## Contribution-Guidelines
 
-  just ask
+  adgfagswreherh
 
   ## Test-Instructions
 
-  saf
+  sghrwehbew
 
   ## Contact-Me
 
-  If you would like to reach out feel free to email or message me on GitHub, checkout the links below<br /> 
-  Email: hello@gmail.com<br /> 
+  The best way to reach me is by email, reach out if you have any questions<br />
+  Email: blah@aol.com<br /> 
   GitHub:
   [Link](https://github.com/asbaxter)
 

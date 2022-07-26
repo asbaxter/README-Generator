@@ -96,7 +96,7 @@ export default function generateMarkdown(data) {
 
   ## Contact-Me
 
-  If you would like to reach out feel free to email or message me on GitHub, checkout the links below<br /> 
+  The best way to reach me is by email, reach out if you have any questions<br />
   Email: ${data.email}<br /> 
   GitHub:
   [Link](https://github.com/${data.github})
