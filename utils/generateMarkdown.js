@@ -82,7 +82,7 @@ export default function generateMarkdown(data) {
   
   ${data.installation}
 
-  ## Usage:
+  ## Usage
 
   ${data.usage}
 
@@ -94,8 +94,9 @@ export default function generateMarkdown(data) {
 
   ${data.testing}
 
-  ## Contact-Me<br /> 
+  ## Contact-Me
 
+  If you would like to reach out feel free to email or message me on GitHub, checkout the links below<br /> 
   Email: ${data.email}<br /> 
   GitHub:
   [Link](https://github.com/${data.github})
