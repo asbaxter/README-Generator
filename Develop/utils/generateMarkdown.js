@@ -50,7 +50,8 @@ export default function generateMarkdown(data) {
   ## Contact-Me<br /> 
 
   Email: ${data.email}<br /> 
-  [GitHub:](https://github.com/${data.github})
+  GitHub:
+  [Link](https://github.com/${data.github})
 
   `;
 }

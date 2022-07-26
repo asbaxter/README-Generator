@@ -10,27 +10,28 @@
 
   ## Description
 
-  it is a cool project
+  it is a cool project foir cool people
   
   ## Installation
   
-  git cloine it
+  asf
 
   ## Usage:
 
-  use it
+  asfg
 
   ## Contribution-Guidelines
 
-  contribute to iot
+  asf
 
   ## Test-Instructions
 
-  sgsdg
+  asf
 
   ## Contact-Me<br /> 
 
   Email: blah@aol.com<br /> 
-  [GitHub:](https://github.com/asbaxter)
+  GitHub:
+  [Link](https://github.com/asbaxter)
 
   
