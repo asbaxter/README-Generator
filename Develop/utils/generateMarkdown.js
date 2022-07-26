@@ -19,13 +19,17 @@ function renderLicenseSection(license) {}
 export default function generateMarkdown(data) {
   return `# ${data.title}
 
+  ##Table of Contents
+  [Description](#Description)
+  [Installation](#Installation)
+  [Usage](#Usage)
+  [Contribution Guidelines](#Contribution Guidelines)
+  [Test Instructions](#Test Instructions)
+  [Contact Me](#Contact Me)
+
   ## Description
 
   ${data.description}
-
-  ## license
-
-  ${data.license}
   
   ## Installation
   
@@ -35,14 +39,18 @@ export default function generateMarkdown(data) {
 
   ${data.usage}
 
-  ## Contribution
+  ## Contribution Guidelines
 
   ${data.contribution}
 
-  ## Testing
+  ## Test Instructions
 
   ${data.testing}
 
+  ## Contact Me
+
+  Email: ${data.email}
+  [GitHub:](https://github.com/${data.github})
 
   `;
 }
