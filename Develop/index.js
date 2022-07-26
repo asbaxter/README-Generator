@@ -1,5 +1,7 @@
 // TODO: Include packages needed for this application
 import inquirer from "inquirer";
+import fs from 'fs';
+
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -59,12 +61,26 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    console.log(fileName);
+    console.log(data);
+    let strData = JSON.stringify(data);
+
+    fs.writeFile(fileName, strData, function(err){
+        if(err){
+            console.log(err);
+        }
+        else{
+            console.log("It works");
+        }
+    })
+
+};
 
 // TODO: Create a function to initialize app
 function init() {
   inquirer.prompt(questions).then((data) => {
-    console.log(data);
+    writeToFile('README.md', data);
   });
 
 };
